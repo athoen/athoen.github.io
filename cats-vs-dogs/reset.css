@@ -68,9 +68,54 @@ table {
 	line-height: 0;
 	height: 0;
 }
- 
+#dogcat{
+	width:400px;
+	margin:0 auto;
+	margin-top:20px;
+	display:block;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+	margin:10px;
+}
+
+li{
+	text-align:center;
+	display:inline-block;
+	padding:15px;
+	}
+ul{
+	text-align:center;
+}
+
+p{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;}
+
+img{width:90%;
+	display:block;
+	margin: 0 auto;}
+	
+h1{width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	font-family: georgia;
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+	}
+footer{
+	clear:both;
+}
+article{float:left;width:50%;}
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+
 
 

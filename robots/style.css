@@ -31,7 +31,124 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+#site-wrapper{
+	background-color:oldlace;
+	position:relative;
+	height:150px;cs
+	width:100%;
+}
+#top-nav{
+	float:right
+
+	
+}
+
+#site-header{
+	height:30px;
+	width:65%;
+	margin-left:0px;
+	position:relative
+	
+}
+
+
+#menu-wrapper{
+	position:relative;
+	background-color:brown;
+	height:30px;
+	width:100%;
+}
+#main-menu {
+	margin:0 auto;
+	height:30px;
+	width:65%;
+	position:relative;
+	
+}
+li{
+	float:left;
+	padding:5px;
+}
+#home{
+	padding:0px;
+}
+#content-wrapper{
+	height:600px;
+	width:100%;
+	position:relative;
+	clear:both;
+	background-color:white;
+}
+#content{
+	background-color:white;
+	width:65%;
+	height:600px;
+	clear:both;
+	position:relative;
+	margin:0 auto;
+}
+#page{
+	padding:25pt;
+	font-family:helvetica;
+	font-size:10pt;
+	font-color:brown;
+	width:50%;
+	float:left;
+}
+h1{
+	font-size:20pt;
+	font-family:helvetica;
+	font-color:brown;
+}
+h2{
+	font-size:14pt;
+	
+}
+#sidebar{
+	width:30%;
+	padding-top:25px;
+	position:relative;
+	float:right;
+	height:500px;
+	
+}
+#footer-wrapper{
+	position:relative;
+	background-color:brown;
+	height:120px;
+	width:100%;
+	clear:both;
+	
+}
+
+#site-footer{
+	width:65%;
+	margin-left:200px;
+	
+}
+
+#footer-contact{
+	font-size:10pt;
+	width:25%;
+	height:50px;
+	float:left;
+	padding-top:25px;
+	
+	
+}
+#footer-follow{
+	float:right;
+	width:40%%;
+	height:70px;
+	padding-top:25px;
+	
+	
+}
+
+
 body {
+	
 	line-height: 1;
 }
 ol, ul {

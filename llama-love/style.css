@@ -51,5 +51,47 @@ table {
 }
 
 /* -----------------END RESET---------------- */
+#main-content{
+	background-color:white;
+	height:350px;
+	width:75%;
+	position:absolute;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:50px;
+	padding:20px;
+}
+img{
+	position:relative;
+	margin:0 auto;
+	display:block;
+	float:left;
+	margin:20px;
+	height:150px;
+	width:150px;
+}
+article{
+	position:relative;
+	margin:0 auto;
+	display:block;
+	float:left;
+	width: 50%;
+	font-family:helvetica;
+	line-height:13pt;
+	
+}
+p{ 
+	margin:10px;
+	font-size:11pt;
+}
+h1{
+	font-family:helvetica;
+	font-weight:bold;
+	padding:3px;
+}
+h2{ 
+	font-family:helvetica;
+	font-size:9pt;
+	color:grey;
 
-p{color:red;}
+

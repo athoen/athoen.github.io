@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height:1;
 }
 ol, ul {
 	list-style: none;
@@ -69,9 +69,8 @@ table {
 	height: 0;
 }
 #dogcat{
-	width:400px;
+	width:100%;
 	margin:0 auto;
-	margin-top:20px;
 	display:block;
 }
 
@@ -79,8 +78,8 @@ a{
 	text-decoration:none;
 	color:black;
 	font-weight:bold;
-	margin:10px;
-	font-size:20px;
+	margin: 0 auto;
+	font-size:1.25em;
 }
 
 li{
@@ -93,7 +92,6 @@ ul{
 	text-align:center;
 	border-top:4px solid black;
 	border-bottom:4px solid black;
-	
 }
 
 p{
@@ -102,7 +100,8 @@ p{
 	margin-right:5%;
 	}
 
-img{width:90%;
+img{
+	width:90%;
 	display:block;
 	margin: 0 auto;
 	padding-top:25px;
@@ -113,9 +112,9 @@ h1{width:90%;
 	margin-right:5%;
 	font-family: georgia;
 	font-weight:bold;
-	font-size:20px;
-	padding-bottom:10px;
-	padding-top:20px;
+	font-size:1.25em;
+	padding-bottom:10%;
+	padding-top:20%;
 	}
 
 body{bottom-padding:50px;

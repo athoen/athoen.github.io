@@ -116,6 +116,9 @@ ul{
 	border-bottom:5px solid black;
 >>>>>>> FETCH_HEAD
 }
+header{
+	font-size:6em;
+}
 p{
 	width:90%;
 	margin-left:5%;

@@ -53,30 +53,29 @@ h1{	width:40px;
 	float:left;
 }
 article{height:800px;
-		width:400%;
-		position:absolute;}
+		width:400%;}
 #river
 	{width:100px;
 	height:60px;
 	padding:50px;
-	position:relative;}
+	}
 #book
 	{width:100px;
 	height:60px;
 	padding:50px;
-	position:relative;}
+}
 
 #editorial
 	{width:100px;
 	height:60px;
 	padding:50px;
-	position:relative;}
+}
 
 #recipe
 	{width:100px;
 	height:60px;
 	padding:50px;
-	position:relative;}
+}
 
 footer{
 	position:bottom;

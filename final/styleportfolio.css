@@ -39,6 +39,7 @@ margin-left:0px;
 background-color:red;
 margin:0 auto;
 padding:40px;
+position:fixed;
 
 }
 #nav{float:left;
@@ -51,27 +52,32 @@ h1{	width:40px;
 	text-decoration:none;
 	float:left;
 }
-article{
-	positon:center;
-}
+article{height:800px;
+		width:400%;
+		position:absolute;}
 #river
 	{width:100px;
 	height:60px;
-	padding:50px}
+	padding:50px;
+	position:relative;}
 #book
 	{width:100px;
 	height:60px;
-	padding:50px}
+	padding:50px;
+	position:relative;}
 
 #editorial
-		{width:100px;
-		height:60px;
-		padding:50px}
-
-#book
 	{width:100px;
 	height:60px;
-	padding:50px}
+	padding:50px;
+	position:relative;}
+
+#recipe
+	{width:100px;
+	height:60px;
+	padding:50px;
+	position:relative;}
+
 footer{
 	position:bottom;
 }

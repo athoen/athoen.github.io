@@ -32,13 +32,12 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-#site-header{
-height:100px;
-width:100%;
-margin-left:0px;
-background-color:red;
-padding:40px;
-position:fixed;
+#site-header{height:100px;
+			width:100%;
+			margin-left:0px;
+			background-color:lightgrey;
+			position:fixed;
+			margin-bottom:20px;
 }
 ul{display:inline-block;
 	padding:10px:}
@@ -47,41 +46,46 @@ nav{float:left;}
 	
 h1{	width:40px;
 	height:200px;
-	font-size:100pt;
+	font-size:200pt;
 	font-family:helvetica;
 	text-decoration:none;
 	float:left;
-}img{width:100px;
-	height: 60px;}
+}
+
+img{width:1224px;
+	height:572px;}
+
 article{
-		width:400%;}
+	width:400%;
+	padding:10px}
 #river
-	{
-	padding:50px;
-	margin:30px;
+	{margin-left:5%;
+	margin-right:5%;
+	margin-bottom:20px;
+	margin-top:20px;
 	}
 #book
-	{
-	padding:50px;
-	margin:30px;
+	{margin-left:5%;
+	margin-right:5%;
+	margin-bottom:20px;
 }
 
 #editorial
-	{
-	padding:50px;
-	margin:30px;
+	{margin-left:5%;
+	margin-right:5%;
+	margin-bottom:20px;
 }
 
 #recipe
-	{
-	padding:50px;
-	margin:30px;
+	{margin-left:5%;
+	margin-right:5%;
+	margin-bottom:20px;
 }
 
-footer{
+footer{margin:0 auto;;
 	height:50px;
-	width:500;
-	position:bottom;
+	width:200%;
+position:bottom;
 }
 
 

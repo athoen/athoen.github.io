@@ -33,53 +33,64 @@ footer, header, hgroup, menu, nav, section {
 }
 
 #site-header{
-height:300px;
+height:40px;
 width:100%;
-margin-left:0px;
-background-color:red;
 margin:0 auto;
 padding:40px;
 position:fixed;
-
+display:inline block;
+float:left;
+border-top:6px solid black;
+border-bottom: 6px solid black;
+padding-top:10px;
+background-color: white; opacity:.75;
+	
+	
 }
-#nav{float:left;
-	width:40px;
+ul{	font-family: Georgia;
+	text-transform: uppercase;
+	list-style-type:disc;
+	font-weight:bold;
+	color: black;
+	font-size: 20px;
+	text-align:left;
+	margin-top: 20px;
 }
-h1{	width:40px;
-	height:200px;
-	font-size:100pt;
-	font-family:helvetica;
-	text-decoration:none;
-	float:left;
-}
-article{height:800px;
-		width:400%;
-		position:absolute;}
+article {height:800%;
+		width:600%;
+		background-color: white;
+		padding-top:110px;
+		
+	}
 #river
-	{width:100px;
-	height:60px;
-	padding:50px;
-	position:relative;}
+	{padding:10px;
+		
+}
 #book
-	{width:100px;
-	height:60px;
-	padding:50px;
-	position:relative;}
+	{padding:10px;
+		
+}
 
 #editorial
-	{width:100px;
-	height:60px;
-	padding:50px;
-	position:relative;}
+	{
+	padding:10px;
+	
+}
 
 #recipe
-	{width:100px;
-	height:60px;
-	padding:50px;
-	position:relative;}
+	{
+	padding:10px;
+	
+}
 
 footer{
+	height: 25px;
+	width: 600%;
+	padding:10px;
 	position:bottom;
+	text-decoration: none;
+	border-top:4px solid black;
+	border-bottom: 4px solid black;
 }
 
 

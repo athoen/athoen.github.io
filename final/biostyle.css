@@ -31,22 +31,52 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-h3{ font-size:11px;
-	text align:center;
-	text-align:center;
-	padding-top:20px;
+#content-wrapper{
+	background-color:blue;
+	width:100%;
+	position:relative;
 }
-#wrapper{
-		display:center;
-		padding:30px;
-		height:50%;
-		width:45%;
-		margin:0 auto;
-		font-size:12px;
+#content{
+	background-color:red;
+	height:900px;
+	width:75%;
+	margin: 25px auto;
+	margin-bottom: 70px;
+	padding:40px;
+	font-family: Helvetica;
+
 	
 }
-#bio{color:black;
-	font-size:10px;
+#page h3{ text-align:center;
+		padding:30px;}
+#page{position:absolute;}
+#page h1{
+	font-weight:bold;
+	font-size: 26px;
+	color:tan;
+	padding-top: 10px;
+	padding-bottom:10px;
+	text-transform:uppercase;
 	text-align:center;
-	font-size:12px;
-	}
+}
+#page h2{
+	text-transform:uppercase;
+	color:yellow;
+	font-size: 16px;
+	font-weight:bold;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+	text-align:center;
+}
+article{
+	float:left;
+	width:50%;
+	font-size: 14px;
+	line-height: 108%;
+	
+}
+#sidebar{
+	float:right;
+	width:25%;
+}
+

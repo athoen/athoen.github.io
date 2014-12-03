@@ -31,63 +31,68 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-header{height:130px;
-		width:100%;
-		list-style-type:disc;
-		border-top:6px solid black;
-		border-bottom: 6px solid black;
-		padding-top:10px;
-		background-color: white; 
-		opacity:.75;
-		position:fixed;
-		
-	}
-	h1{ font-weight:bold;
-		height:25px;
-		text-decoration:none; 
-		font-family: helvetica;
-		padding: 10pt;}
-#top-nav{font-weight:bold;
-	text-align:center;
-	font-family: helvetica;
-	text-transform: uppercase;
-	padding-top:13px;
+#site-wrapper{
+	width: 100%;
+	display:block;
+}
+#site-header{background-color:pink;
+			width:100%;
+			height:80px;
+			position:fixed;
+}
+#main-menu{ padding:10px;}
+
+#instagram{
+	width:50px;
+	height:50px;
 	float:right;
-	padding-top:60px;
-	text-decoration:none;
-
 }
-.about{ height:50px;
-	width:80px;
-	padding:50px;
-	color:red;
+#about{
+	color:grey;
+	font-family:helvetica;	
 }
-a{ text decoration:none;
+#name{font-size:40px;}
+#content{ padding-top:20px;}
+#content-wrapper{
+	padding-top:30px;
+	padding-bottom:5px;
+	width:100%;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	height:100%;
+	
 }
-section {height:200%;
-		width:800%;
-		background-color: white;
-		padding-top:110px;
-		padding-left:15%;
-		margin:0 auto;
-		display:center;
-	}
-#river{padding:10px;
-}
-#book{padding:10px;
-}
-#editorial{padding:10px;
-}
-#recipe{padding:10px;
-}
-footer{
-	height: 25px;
-	width: 600%;
-	padding:10px;
-	position:bottom;
-	color:black;
+#content{
 	background-color:white;
-	text-align:center;
+	width:70%;
+	margin:0 auto;
+	font-family: Helvetica;	
+	height:100%;
 }
-
-
+#footer-wrapper{
+	background-color:white;
+	width:100%;
+	height:100%px;
+	display:block;
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+}
+#site-footer{
+	width:100%;
+	height:30px;
+	font-family:Helvetica;
+	font-size:12px;
+	color:black;
+}
+#site-footer h1{
+	font-size: 14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	position:relative;
+	display:bottom;
+	text align:center;
+}
+img{width:100%;}

@@ -31,63 +31,50 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-header{height:130px;
-		width:100%;
-		list-style-type:disc;
-		border-top:6px solid black;
-		border-bottom: 6px solid black;
-		padding-top:10px;
-		background-color: white; 
-		opacity:.75;
-		position:fixed;
-		
-	}
-	h1{ font-weight:bold;
-		height:25px;
-		text-decoration:none; 
-		font-family: helvetica;
-		padding: 10pt;}
-#top-nav{font-weight:bold;
-	text-align:center;
-	font-family: helvetica;
-	text-transform: uppercase;
-	padding-top:13px;
-	float:right;
-	padding-top:60px;
-	text-decoration:none;
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-.about{ height:50px;
-	width:80px;
-	padding:50px;
-	color:red;
+
+#wrapper {
+  position: relative;
+  width: 1000px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: white;
+  display: center;
+  text-decoration:underline;
 }
-a{ text decoration:none;
-}
-section {height:200%;
-		width:800%;
-		background-color: white;
-		padding-top:110px;
-		padding-left:15%;
-		margin:0 auto;
-		display:center;
-	}
-#river{padding:10px;
-}
-#book{padding:10px;
-}
-#editorial{padding:10px;
-}
-#recipe{padding:10px;
-}
-footer{
-	height: 25px;
-	width: 600%;
-	padding:10px;
-	position:bottom;
-	color:black;
-	background-color:white;
+div{text-weight:bold;
 	text-align:center;
+	text-transform:uppercase;
+	font-size:50px;
+	font-family:helvetica;
+	height: 10em;
+	position: relative;
+	padding-top:10%;
+	letter-spacing:5px;
+	text-decoration:none;
+}
+ p {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%) 
 }
 
 

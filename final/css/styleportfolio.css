@@ -1,0 +1,91 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+header{
+		height:100px;
+		width:100%;
+		list-style-type:disc;
+		border-top:6px solid black;
+		border-bottom: 6px solid black;
+		padding-top:10px;
+		background-color: white; 
+		position:fixed;
+}
+#head-id{ position: absolute;}
+	h1{ font-weight:bold;
+		height:100px;
+		font-size:50px;
+		text-decoration:none; 
+		font-family: helvetica;
+		padding-top:15px;
+		padding-left: 20px;
+}
+#container{
+	position:absolute;
+	background-color:red;
+	display:center;
+	margin: 0 auto;
+	height:2200px;
+	width:1200px;
+	padding:70px;
+}
+section {height:200%;
+		width:800%;
+		background-color: white;
+		padding-top:110px;
+		padding-left:30px;
+		padding:50px;
+		display:center;
+		position:relative;
+	}
+
+#book{
+
+}
+#editorial{
+
+}
+#recipe{
+
+}
+footer{
+	height: 25px;
+	width: 600%;
+	padding:10px;
+	position:bottom;
+	color:black;
+	background-color:white;
+	text-align:center;
+}
+
+

@@ -130,10 +130,12 @@ a:hover{
 	padding-left:25px;
 }
 
-#me{width:50%;
+#me{width:45%;
 	height:100%;
-	float:right;
-	padding:bottom50px;
+	float:left;
+	padding-top: 30px;
+	padding-bottom:30px;
+	
 }
 #bio{
 	height:100%;
@@ -190,6 +192,7 @@ font-family:helvetica;
 	background-color:white;
 	width:100%;
 	border-top: 4px solid black;
+	clear:both;
 	
 }
 #site-footer{
@@ -207,6 +210,13 @@ font-family:helvetica;
 img{width:100%;
 }
 
+#about-section{float:left;
+	width:50%;
+	height:100%;
+	padding-right:30px;
+	padding-top:30px;
+	padding-bottom: 30px;}
+	
 @media screen and (max-width: 915px){
 	
 	#content-wrapper:{margin: 0 auto;
@@ -251,6 +261,7 @@ img{width:100%;
 		}
 		#eight{ width:32.5%
 		}
+		
 @media screen and (max-width: 650px){
 	#instagram{float:right;}
 	#about{padding:0;}

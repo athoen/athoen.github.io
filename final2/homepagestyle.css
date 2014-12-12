@@ -94,6 +94,7 @@ a:hover{
 	font-family: Helvetica;
 	padding-top:30px;
 	padding-bottom:10px;
+	display:block;
 }
 #one{width:50%;
 }
@@ -119,27 +120,48 @@ a:hover{
 #vertical{width:36%;}
 
 #editorial-pics{width:72%;}
-
+#power-pics{width:72%;}
+#content-bio{ width:60%;
+	margin: 0 auto;}
 #recipe-content{
 	float:right;
 	width:25%;
 	height:100%;
 	padding-left:25px;
-	
-	
-	
 }
+
+#me{width:100%;}
+#bio{width:80%;}
 #recipe-pics{
 	width:95%;
 	
 }
-h1{font-size:40px;
+section{width:60%;
+	padding-left:15%;
+	padding-bottom:20%;
+	padding-top:5%;
+	
+}
+article{font-family: helvetica;
+	font-size:15px;
+	line-height:25px;
+	font-weight:bold;
+}
+h1{font-family:helvetica;
+	font-size:40px;
 	font-weight:bold;
 	line-height:45px;
 }
 h2{font-size:25px;
-	line-height:50px;
+	line-height:30px;
 	font-weight:bold;
+	
+}
+h3{font-family:helvetica;
+	font-size:15px;
+	font-weight:bold;
+	line-height:20px;
+	margin:0 auto;
 }
 p{font-size:20px;
 line-height:23pt;

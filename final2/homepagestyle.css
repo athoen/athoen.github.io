@@ -131,7 +131,7 @@ a:hover{
 }
 
 #me{width:45%;
-	height:100%;
+	
 	float:left;
 	padding-top: 30px;
 	padding-bottom:30px;
@@ -193,6 +193,7 @@ font-family:helvetica;
 	width:100%;
 	border-top: 4px solid black;
 	clear:both;
+	bottom: 0px;
 	
 }
 #site-footer{
@@ -239,6 +240,7 @@ img{width:100%;
 	}
 	p{font-size: 1em;
 		line-height:1.5em;}
+	
 	#content-pics{width:100%;
 		margin: 0 auto;
 			background-color:blue;
